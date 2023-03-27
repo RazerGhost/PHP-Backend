@@ -1,0 +1,114 @@
+body{
+    margin: 0px;
+background-color: #592E83;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: #9984D4;
+}
+
+.navlogo {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    text-align: center;
+    align-items: flex-end;
+    font-size:xx-large ;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.navleft{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    font-size:xx-large ;
+}
+
+.navcenter{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    font-size:xx-large ;
+}
+
+.navright{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    font-size:xx-large ;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 500px;
+    width: 300px;
+    border-radius: 21.5px;
+    background-color: #CAA8F5;
+}
+
+.table {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: fit-content;
+    width: fit-content;
+    border-radius: 10px;
+    background-color: #CAA8F5;
+}
+
+.formcenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.submit{
+    border-radius: 1.5px;
+    border: #000 3px solid;
+    background-color: #000;
+    color: #fff;
+    margin: 10px;
+}
+
+.submit:active{
+    background-color: rgb(156, 156, 156);
+}
+
+input{
+    border-radius: 5px;
+    border: #000 solid 1px ;
+    margin-bottom: 5px;
+    height: 20px;
+}
+
+.stad{
+    border-radius: 5px;
+    border: #000 solid 1px ;
+    margin-bottom: 5px;
+    height: 20px;
+}
+a{color: #000;}
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
